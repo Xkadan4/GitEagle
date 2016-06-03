@@ -259,12 +259,12 @@
 <symbol name="MCU">
 <wire x1="-43.18" y1="43.18" x2="-43.18" y2="-38.1" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-38.1" x2="15.24" y2="43.18" width="0.254" layer="94"/>
-<pin name="XTALIN" x="-45.72" y="40.64" length="short" direction="in"/>
-<pin name="VSS" x="-45.72" y="-33.02" length="short" direction="pwr"/>
-<pin name="XTALOUT" x="-45.72" y="38.1" length="short" direction="out"/>
+<pin name="XTALIN" x="-48.26" y="40.64" length="middle" direction="in"/>
+<pin name="VSS" x="-48.26" y="-33.02" length="middle" direction="pwr"/>
+<pin name="XTALOUT" x="-48.26" y="38.1" length="middle" direction="out"/>
 <pin name="!RESET!/PIO0_0" x="17.78" y="40.64" length="short" rot="R180"/>
 <wire x1="-43.18" y1="43.18" x2="15.24" y2="43.18" width="0.254" layer="94"/>
-<pin name="VDD" x="17.78" y="-33.02" length="short" direction="pwr" rot="R180"/>
+<pin name="VDD" x="20.32" y="-33.02" length="middle" direction="pwr" rot="R180"/>
 <pin name="PIO0_1/CLKOUT/CT32B0_MAT2" x="17.78" y="38.1" length="short" rot="R180"/>
 <pin name="PIO0_2/SSEL0/CT16B0_CAP0" x="17.78" y="35.56" length="short" rot="R180"/>
 <pin name="PIO0_3" x="17.78" y="33.02" length="short" rot="R180"/>
@@ -305,10 +305,10 @@
 <pin name="PIO1_7/TXD/CT32B0_MAT1" x="17.78" y="-20.32" length="short" rot="R180"/>
 <pin name="PIO1_5/!RTS!/CT32B0_CAP0" x="17.78" y="-15.24" length="short" rot="R180"/>
 <pin name="PIO3_3/!RI!" x="-45.72" y="-22.86" length="short"/>
-<pin name="PIO1_4/AD5/CT32B1_MAT3/WAKEUP" x="17.78" y="-10.16" length="short" rot="R180"/>
+<pin name="PIO1_4/AD5/CT32B1_MAT3/WAKEUP" x="22.86" y="-10.16" rot="R180"/>
 <wire x1="-43.18" y1="-38.1" x2="15.24" y2="-38.1" width="0.254" layer="94"/>
-<pin name="VDD@1" x="17.78" y="-35.56" length="short" direction="pwr" rot="R180"/>
-<pin name="VSS@1" x="-45.72" y="-35.56" length="short" direction="pwr"/>
+<pin name="VDD@1" x="20.32" y="-35.56" length="middle" direction="pwr" rot="R180"/>
+<pin name="VSS@1" x="-48.26" y="-35.56" length="middle" direction="pwr"/>
 <text x="-43.18" y="43.18" size="1.27" layer="95">&gt;NAME</text>
 <text x="-43.18" y="-40.64" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
